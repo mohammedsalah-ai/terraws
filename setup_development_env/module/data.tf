@@ -1,5 +1,5 @@
-data "aws_ami" "t-ami" {
-  owners      = var.ami-owners
+data "aws_ami" "t_ami" {
+  owners      = var.ami_owners
   most_recent = true
 
   filter {
